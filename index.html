@@ -8,43 +8,159 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="header-atas">
-        <header>
-            <ul>
-                <li>
-                    <a href="index.html">Beranda</a>
-                </li>
-                <li>
-                    <a href="#">Tentang Kami</a>
-                </li>
-                <li>
-                    <a href="Menu.html">Menu</a>
-                </li>
-                <li>
-                    <a href="#">Lokasi</a>
-                </li>
-            </ul>
-        </header>
-    </div>
-    <div class="footer-bawah">
-        <footer>
-            <div class="sosmed">
-                <h1>Contact</h1>
-                <div>
-                    <a href="#">IG</a>
-                    <a href="#">WA</a>
-                    <a href="#">FB</a>
-                </div>
+    <header>
+        <div class="header-atas">
+            <div class="logo-atas">
+                <a href="index.html">
+                    <img src="img/logo-nyusrup.png" alt="nyusrup">
+                </a>
             </div>
-            <div class="marketplace">
-                <h1>Available On</h1>
-                <div>
-                    <a href="#"><img src="img/gofood.png" style="width: 40px; height: 40px;"></a>
-                    <a href="#"><img src="img/grabfood.png"style="width: 40px; height: 40px;"></a>
-                    <a href="#"><img src="img/shoopefood.png"style="width: 100px; height: 40px;"></a>
-                </div>
+            <div class="menu-header">
+                <ul>
+                    <li>
+                        <a href="index.html">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#tentangkami">Tentang Kami</a>
+                    </li>
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#lokasi">Lokasi</a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-    </div>
+        </div>
+    </header>
+    <main>
+        <article class="banner-container">
+            <img src="img/banner-1.png" alt="banner first">
+        </article>
+        <article id="tentangkami" class="tentangkami-container">
+            <section>
+                <h1>OUR VISION</h1>
+                <p>Semua orang berhak memiliki kalsium dengan susu murni terbaik</p>
+            </section>
+            <section>
+                <h1>OUR MISSION</h1>
+                <p>Memproduksi susu yang berkualitas dan di terima masyarakat luas</p>
+            </section>
+        </article>
+        <article id="menu" class="menu-container">
+                <div class="makanan">
+                    <table>
+                        <tr>
+                            <th>
+                                MENU MAKANAN
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/cireng.png" width=200 height=200>
+                                <h6 align="center">Cireng</h6>
+                                <p align="center">Rp 12.000</p>
+                            </td>
+                            <td>
+                                <img src="img/mix-1.png" width=200 height=200>
+                                <h6 align="center">Paket Mix</h6>
+                                <p align="center">Rp 24.500</p>
+                            </td>
+                            <td>
+                                <img src="img/sosis.png" width=200 height=200>
+                                <h6 align="center">Sosis</h6>
+                                <p align="center">Rp 7.000</p>
+                            </td>
+                            <td>
+                                <img src="img/nugget.png" width=200 height=200>
+                                <h6 align="center">Paket Mix</h6>
+                                <p align="center">Rp 7.000</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="minuman">
+                    <table>
+                        <tr>
+                            <th>
+                               MENU MINUMAN
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/lemon.png" width=200 height=150>
+                                <h6 align="center">Lemon</h6>
+                                <p align="center">Rp 12.000</p>
+                            </td>
+                            <td>
+                                <img src="img/kopi-susu.png" width=200 height=150>
+                                <h6 align="center">Kopi Susu</h6>
+                                <p align="center">Rp 24.500</p>
+                            </td>
+                            <td>
+                                <img src="img/jeruk-purut.png" width=200 height=150>
+                                <h6 align="center">Jeruk Peras</h6>
+                                <p align="center">Rp 7.000</p>
+                            </td>
+                            <td>
+                                <img src="img/thai-tea.png" width=200 height=150>
+                                <h6 align="center">Thai Tea</h6>
+                                <p align="center">Rp 7.000</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+        </article>
+
+        <article id="lokasi" class="lokasi-container">
+            <section>
+                <h1>SURABAYA</h1>
+                <a href="https://goo.gl/maps/6oNQ66eZ5erQJNMa9"><i class="fa-solid fa-map-location-dot"></i>Jl. Raya Darmo Permai Selatan No.45</a>
+            </section>
+            <section>
+                <h1>GRESIK</h1>
+                <a href="https://goo.gl/maps/bi3H4astnRasMdFt8"><i class="fa-solid fa-map-location-dot"></i>Jl. Raya Batu Mulia</a>
+            </section>
+        </article>
+    </main>
+    <footer class="footer-bawah">
+                <div class="sosmed">
+                        <h3>Contact</h1>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/nyusrupindonesia"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/nyusrup.indonesia/"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/085730451442"><i class="fa fa-whatsapp"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                </div>
+
+                <div class="marketplace">
+                        <h3>Available On</h1>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="img/gofood.png" style="width: 20px; height: 20px;"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="img/grabfood.png"style="width: 20px; height: 20px;"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="img/shoopefood.png"style="width: 50px; height: 20px;"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                </div>
+            <div class="copyright">
+                <a href=""><i class="fa-solid fa-copyright"></i>2022 Nyusrup Indonesia, All right reserved</a>
+            </div>
+    </footer>
 </body>
+<script src="https://kit.fontawesome.com/d14eb4453a.js" crossorigin="anonymous"></script>
 </html>
